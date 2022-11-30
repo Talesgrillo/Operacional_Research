@@ -15,7 +15,7 @@ respo = np.array([-30,40,6])
 print(problem_constrains)
 
 #Defining the objective for the problem model
-model = LpProblem("Wyndor Glass CO",LpMinimize)
+model = LpProblem("Exercise_2",LpMinimize)
 
 #Defining the matrix for the variables
 variable_names = [str(j) for j in range(1,products+1)]
