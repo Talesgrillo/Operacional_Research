@@ -15,7 +15,7 @@ respo = np.array([-30,-8,-72])
 print(problem_constrains)
 
 #Defining the objective for the problem model
-model = LpProblem("Exercise_2",LpMinimize)
+model = LpProblem("Exercise_2",LpMaximize)
 
 #Defining the matrix for the variables
 variable_names = [str(j) for j in range(1,products+1)]
