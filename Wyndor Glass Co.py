@@ -55,3 +55,9 @@ status =  LpStatus[model.status]
 print(status)
 
 print("Valor:",model.objective.value())
+
+for v in model.variables():
+    try:
+        print(v.name,"=", v.value())
+    except:
+        print("error couldnt find value")
