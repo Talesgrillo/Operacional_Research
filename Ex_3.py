@@ -10,7 +10,7 @@ products = 2
 Objectivea = np.array([12,-8])
 
 #Defining the constrains
-problem_constrains = np.array([[5,-6],[2,-4],[9,-8]])
+problem_constrains = np.array([[5,-6],[-2,-4],[9,-8]])
 respo = np.array([-30,-8,-72])
 print(problem_constrains)
 
